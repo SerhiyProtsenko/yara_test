@@ -6,6 +6,7 @@ rule D_Unix_dot_Trojan_dot_Mirai_dash_7135823_dash_0
         author         = "ClamAV"
         source         = "ClamAV"
         hash           = "e467f1baebf2bbc565ffeb631e92d344"
+	sha1	       = "53cb73b20d58f4d896a5cff295457acbf2bb1b38"
         description    = ""
         created_date   = ""
         reference      = ""
