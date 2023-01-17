@@ -5,6 +5,7 @@ rule D_Unix_dot_Trojan_dot_Mirai_dash_7135823_dash_0
         title          = "Unix.Trojan.Mirai-7135823-0"
         author         = "ClamAV"
         source         = "ClamAV"
+	hash	       = "6462b6dfc161555a4361ce42b80b46987c23de0242bc63db7c7ee3f65b494265"	
         description    = ""
         created_date   = ""
         reference      = ""
