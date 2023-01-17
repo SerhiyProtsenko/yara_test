@@ -6,7 +6,7 @@ rule Linux_Trojan_Mirai_268aac0b {
         creation_date = "2021-01-12"
         last_modified = "2021-09-16"
         threat_name = "Linux.Trojan.Mirai"
-        reference_sample = "49c94d184d7e387c3efe34ae6f021e011c3046ae631c9733ab0a230d5fe28ead"
+        hash = "49c94d184d7e387c3efe34ae6f021e011c3046ae631c9733ab0a230d5fe28ead"
         severity = 100
         arch_context = "x86"
         scan_context = "file, memory"
@@ -26,7 +26,7 @@ rule Linux_Trojan_Mirai_d5f2abe2 {
         creation_date = "2021-01-12"
         last_modified = "2021-09-16"
         threat_name = "Linux.Trojan.Mirai"
-        reference_sample = "c490586fbf90d360cf3b2f9e2dc943809441df3dfd64dadad27fc9f5ee96ec74"
+        hash = "c490586fbf90d360cf3b2f9e2dc943809441df3dfd64dadad27fc9f5ee96ec74"
         severity = 100
         arch_context = "x86"
         scan_context = "file, memory"
@@ -65,7 +65,7 @@ rule Linux_Trojan_Mirai_fa3ad9d0 {
         creation_date = "2021-01-12"
         last_modified = "2021-09-16"
         threat_name = "Linux.Trojan.Mirai"
-        reference_sample = "8dc745a6de6f319cd6021c3e147597315cc1be02099d78fc8aae94de0e1e4bc6"
+        hash = "8dc745a6de6f319cd6021c3e147597315cc1be02099d78fc8aae94de0e1e4bc6"
         severity = 100
         arch_context = "x86"
         scan_context = "file, memory"
@@ -85,7 +85,7 @@ rule Linux_Trojan_Mirai_0cb1699c {
         creation_date = "2021-01-12"
         last_modified = "2021-09-16"
         threat_name = "Linux.Trojan.Mirai"
-        reference_sample = "fc8741f67f39e7409ab2c6c62d4f9acdd168d3e53cf6976dd87501833771cacb"
+        hash = "fc8741f67f39e7409ab2c6c62d4f9acdd168d3e53cf6976dd87501833771cacb"
         severity = 100
         arch_context = "x86"
         scan_context = "file, memory"
