@@ -26,7 +26,8 @@ rule Pdf_Dropper_Agent_8087592
     meta:
         
         title          = "Pdf.Dropper.Agent-8087592-0:73"
-		hash			 = "c6c2ddd65229a1a29df32cbd5b420e68"
+	hash           = "c6c2ddd65229a1a29df32cbd5b420e68"
+	sha1           = "ea12d9bc365e84358ca037f03cc1107138b6fddb"
         author         = "ClamAV"
         source         = "ClamAV"
         description    = ""
@@ -36,6 +37,6 @@ rule Pdf_Dropper_Agent_8087592
     	$hash = { C6 C2 DD D6 52 29 A1 A2 9D F3 2C BD 5B 42 0E 68 }
 
     condition:
-      filesize == 36086 and hash.md5(0, filesize) == $hash
+    		filesize == 36086 and hash.md5(0, filesize) == $hash
 }
 // --
