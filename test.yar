@@ -37,6 +37,6 @@ rule Pdf_Dropper_Agent_8087592
     	$hash = { c6 c2 dd d6 52 29 a1 a2 9d f3 2c bd 5b 42 0e 68 }
 
     condition:
-    		hash.md5(0, 36086) == $hash
+    		$hash at 0 and (filesize == 36086)
 }
 // --
