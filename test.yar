@@ -15,6 +15,6 @@ rule Pdf_Dropper_Agent_8087592
         reference      = ""
     
     condition:
-    		 filesize == 36086 and hash.md5(0,filesize)=="c6c2ddd65229a1a29df32cbd5b420e68"
+    		 filesize == 36086 and hash.md5(0,filesize) == "c6c2ddd65229a1a29df32cbd5b420e68"
 }
 // --
