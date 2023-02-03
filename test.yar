@@ -1,3 +1,5 @@
+import hash
+
 rule Unix_dot_Trojan_dot_IRCAESAgent_dash_1
 {
     meta:
@@ -37,6 +39,6 @@ rule Pdf_Dropper_Agent_8087592
     	$hash = { C6 C2 DD D6 52 29 A1 A2 9D F3 2C BD 5B 42 0E 68 }
 
     condition:
-    		hash.md5(0, 36086) == $hash
+    		filesize == 36086 and hash.md5(0, filesize) == $hash
 }
 // --
