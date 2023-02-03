@@ -1,3 +1,4 @@
+import "hash"
 
 rule Unix_dot_Trojan_dot_IRCAESAgent_dash_1
 {
