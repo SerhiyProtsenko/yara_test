@@ -33,7 +33,7 @@ rule Pdf_Dropper_Agent_8087592
         created_date   = ""
         reference      = ""
     strings:
-		        $hash = { c6 c2 dd d6 52 29 a1 a2 9d f3 2c bd 5b 42 0e 68 }
+    	$hash = { C6 C2 DD D6 52 29 A1 A2 9D F3 2C BD 5B 42 0E 68 }
 
     condition:
       filesize == 36086 and hash.md5(0, filesize) == $hash
